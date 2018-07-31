@@ -1,0 +1,104 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://w3c/future-csv-vocab/"
+    xmlns:j.1="http://example.org#VALUE%20"
+    xmlns:j.2="http://example.org#"
+    xmlns:j.3="http://example.org#DEVICE_BATTERY%20PERCENTAGE%20"
+    xmlns:j.4="http://example.org#MEASURED%20">
+  <rdf:Description>
+    <j.2:ID_DATA rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >62068921</j.2:ID_DATA>
+    <j.0:row rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >1</j.0:row>
+    <j.2:LATITIUDE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >52.327959332660164</j.2:LATITIUDE>
+    <j.1:UNIT>m3</j.1:UNIT>
+    <j.2:ID_LOCATION rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >627623</j.2:ID_LOCATION>
+    <j.2:DEVICE_SERIAL_NBR rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >51096095</j.2:DEVICE_SERIAL_NBR>
+    <j.2:LOCATION_NAME>LOCATION 129</j.2:LOCATION_NAME>
+    <j.2:MEASURED_VALUE_TYPE>water usage</j.2:MEASURED_VALUE_TYPE>
+    <j.2:LONGTITUDE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >16.912498096422272</j.2:LONGTITUDE>
+    <j.2:MEASUREMENT_DATE>2016-06-04 07:22:12.000</j.2:MEASUREMENT_DATE>
+    <j.4:VALUE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >10</j.4:VALUE>
+    <j.2:LOCATION_DESCRIPTION>Private house</j.2:LOCATION_DESCRIPTION>
+    <j.3:LEFT rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >100</j.3:LEFT>
+    <j.2:DEVICE_DEPLOYED>pipe</j.2:DEVICE_DEPLOYED>
+  </rdf:Description>
+  <rdf:Description>
+    <j.2:LOCATION_DESCRIPTION>Gas station</j.2:LOCATION_DESCRIPTION>
+    <j.0:row rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >2</j.0:row>
+    <j.3:LEFT rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >84</j.3:LEFT>
+    <j.2:LONGTITUDE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >17.021555632521452</j.2:LONGTITUDE>
+    <j.2:MEASUREMENT_DATE>2016-06-06 15:43:30.000</j.2:MEASUREMENT_DATE>
+    <j.2:LATITIUDE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >53.251423652001426</j.2:LATITIUDE>
+    <j.2:ID_LOCATION rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >45223</j.2:ID_LOCATION>
+    <j.4:VALUE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >57</j.4:VALUE>
+    <j.2:LOCATION_NAME>Location 42</j.2:LOCATION_NAME>
+    <j.2:MEASURED_VALUE_TYPE>gas usage</j.2:MEASURED_VALUE_TYPE>
+    <j.1:UNIT>m3</j.1:UNIT>
+    <j.2:ID_DATA rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >86547</j.2:ID_DATA>
+    <j.2:DEVICE_DEPLOYED>tank</j.2:DEVICE_DEPLOYED>
+    <j.2:DEVICE_SERIAL_NBR rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >6563536</j.2:DEVICE_SERIAL_NBR>
+  </rdf:Description>
+  <rdf:Description>
+    <j.2:MEASUREMENT_DATE>2016-04-06 20:41:20.000</j.2:MEASUREMENT_DATE>
+    <j.4:VALUE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >68</j.4:VALUE>
+    <j.1:UNIT>%</j.1:UNIT>
+    <j.2:DEVICE_DEPLOYED>tank</j.2:DEVICE_DEPLOYED>
+    <j.3:LEFT rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >95</j.3:LEFT>
+    <j.0:row rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >3</j.0:row>
+    <j.2:LOCATION_DESCRIPTION>Gas Station</j.2:LOCATION_DESCRIPTION>
+    <j.2:ID_LOCATION rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >5421</j.2:ID_LOCATION>
+    <j.2:DEVICE_SERIAL_NBR rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >3562244</j.2:DEVICE_SERIAL_NBR>
+    <j.2:LATITIUDE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >54.112352632145214</j.2:LATITIUDE>
+    <j.2:ID_DATA rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >3456564</j.2:ID_DATA>
+    <j.2:MEASURED_VALUE_TYPE>gas left in tank in percent</j.2:MEASURED_VALUE_TYPE>
+    <j.2:LONGTITUDE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >16.556214252362214</j.2:LONGTITUDE>
+    <j.2:LOCATION_NAME>Location 6</j.2:LOCATION_NAME>
+  </rdf:Description>
+  <rdf:Description>
+    <j.2:DEVICE_DEPLOYED>manhole</j.2:DEVICE_DEPLOYED>
+    <j.3:LEFT rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >45</j.3:LEFT>
+    <j.2:ID_DATA rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >23465674</j.2:ID_DATA>
+    <j.2:ID_LOCATION rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >3523</j.2:ID_LOCATION>
+    <j.2:MEASURED_VALUE_TYPE>water level</j.2:MEASURED_VALUE_TYPE>
+    <j.2:LOCATION_DESCRIPTION>Private house</j.2:LOCATION_DESCRIPTION>
+    <j.1:UNIT>m</j.1:UNIT>
+    <j.2:DEVICE_SERIAL_NBR rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >767535536</j.2:DEVICE_SERIAL_NBR>
+    <j.2:LONGTITUDE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >16.912498096422272</j.2:LONGTITUDE>
+    <j.2:LOCATION_NAME>Location 129</j.2:LOCATION_NAME>
+    <j.2:LATITIUDE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >52.327959332660164</j.2:LATITIUDE>
+    <j.2:MEASUREMENT_DATE>2016-08-06 14:13:09.000</j.2:MEASUREMENT_DATE>
+    <j.4:VALUE rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+    >5</j.4:VALUE>
+    <j.0:row rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >4</j.0:row>
+  </rdf:Description>
+</rdf:RDF>

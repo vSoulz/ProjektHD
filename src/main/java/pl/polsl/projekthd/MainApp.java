@@ -5,6 +5,8 @@
  */
 package pl.polsl.projekthd;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.lang.*;
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,20 +27,17 @@ public class MainApp {
     public static void main(String[] args) {
         Model m = ModelFactory.createDefaultModel();
         try {
-            // read csv:
-            ClassLoader cl = MainApp.class.getClassLoader();
-            System.out.println(cl.getResourceAsStream("Example.csv"));
-            InputStream is = MainApp.class.getResourceAsStream("Example.csv");
+            File fs = new File("src/main/resources/Example.csv");
+            InputStream is = new FileInputStream(fs);
             if (is != null) {
                 RDFDataMgr.read(m, is, "http://example.org", Lang.CSV);
                 m.write(System.out, "ttl");
-                // save as XML:
-                Path p = Files.createTempFile("temp-", ".xml");
-                System.out.println("Save to " + p);
-                OutputStream out = Files.newOutputStream(p);
+                String path = new String("."+File.separator+"output.xml");
+                System.out.println("Save to " + path);
+                File outputFile = new File(path);
+                OutputStream out = Files.newOutputStream(outputFile.toPath());
                 RDFDataMgr.write(out, m, Lang.RDFXML);
-                // print file to console:
-                Files.lines(p).forEach(System.out::println);
+                Files.lines(outputFile.toPath()).forEach(System.out::println);
             } else {
                 System.out.println("Stream is empty!");
             }
